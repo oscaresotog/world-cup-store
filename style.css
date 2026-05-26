@@ -222,11 +222,130 @@ h2 {
   background-color: var(--azul);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 
-@media (max-width: 768px) {
+.hero-section {
+      background:
+        linear-gradient(rgba(0, 104, 71, 0.88), rgba(206, 17, 38, 0.82)),
+        url("WhatsApp Image 2026-05-25 at 4.14.50 PM.jpeg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      border-radius: 24px;
+      padding: 60px 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+}
+
+.hero-badge {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-weight: 600;
+      margin-bottom: 18px;
+}
+
+    .hero-title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .hero-text {
+      font-size: 1.08rem;
+      color: rgba(255, 255, 255, 0.93);
+      max-width: 760px;
+    }
+
+    .section-card {
+      border: none;
+      border-radius: 22px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      background: #ffffff;
+    }
+
+    .section-title {
+      font-weight: 800;
+      color: #111;
+    }
+
+    .football-divider {
+      width: 90px;
+      height: 5px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--verde) 0%, #ffffff 50%, var(--rojo) 100%);
+      margin: 14px 0 24px;
+      border: 1px solid #e9ecef;
+    }
+
+    .muted-text {
+      color: var(--texto-secundario);
+      line-height: 1.8;
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, var(--verde) 0%, #0a8a61 100%);
+      color: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 10px 24px rgba(0, 104, 71, 0.18);
+      height: 100%;
+    }
+
+    .info-card {
+      border: none;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      height: 100%;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+      }
+
+    .card-mision {
+      border-top: 5px solid var(--verde);
+      background: linear-gradient(180deg, #effaf4 0%, #ffffff 100%);
+    }
+
+    .card-vision {
+      border-top: 5px solid #adb5bd;
+      background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+    }
+
+    .card-pasion {
+      border-top: 5px solid var(--rojo);
+      background: linear-gradient(180deg, #fff1f2 0%, #ffffff 100%);
+      }
+
+    .custom-list .list-group-item {
+      border: none;
+      border-bottom: 1px solid #ececec;
+      padding-left: 0;
+      padding-right: 0;
+      color: var(--texto-secundario);
+      background: transparent;
+    }
+
+    footer {
+      color: #6c757d;
+      font-size: 0.95rem;
+    }
+    
+    /* =========================
+    RESPONSIVE
+    ========================= */
+    
+    @media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-section {
+    padding: 42px 22px;
+  }
   .navbar {
     padding: 1rem;
   }
