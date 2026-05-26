@@ -12,6 +12,7 @@ Integrantes:
 - Carlos Navarrete
 - Emmanuel Garibay
 - Mafer Rodriguez
+- Adriana Careo 
 
 Paleta de colores:
 - Name: Average Green, Hex: #3CAC3B
